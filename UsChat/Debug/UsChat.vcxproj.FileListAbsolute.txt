@@ -1,0 +1,2 @@
+M:\QtConnect\UsChat\Debug\UsChat.exe
+M:\QtConnect\UsChat\Debug\UsChat.pdb

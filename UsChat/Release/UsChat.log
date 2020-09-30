@@ -1,0 +1,11 @@
+﻿  Reading Qt configuration (F:\Qt\5.14.0\msvc2017\bin\qmake.exe)
+  uic UsChat.ui
+  rcc UsChat.qrc
+  moc UsChat.h
+  EncryptUtils.cpp
+  FileUtils.cpp
+  main.cpp
+  UsChat.cpp
+  qrc_UsChat.cpp
+  moc_UsChat.cpp
+  UsChat.vcxproj -> M:\QtConnect\UsChat\Release\UsChat.exe

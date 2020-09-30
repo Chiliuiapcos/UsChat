@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files\SighUpForm">
+      <UniqueIdentifier>{aa9793b2-40a1-4ba8-b8a8-6b7ec2af82e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\SighUpForm">
+      <UniqueIdentifier>{1af5f46f-9fdd-4776-a65b-62f4b71a5598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SighUpForm">
+      <UniqueIdentifier>{b2c5afea-d654-4ed6-a210-b44d9b2327e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{f764e962-50bc-4fd8-a461-04747580010a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Constant">
+      <UniqueIdentifier>{1101ddc3-a7f3-4028-b7e0-08baffb68eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CommonUtils">
+      <UniqueIdentifier>{6cc40f2f-b905-431f-8678-17fb06a1857e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommonUtils">
+      <UniqueIdentifier>{7ed59ef1-6d04-4b09-8be3-2c1f269d2450}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UsChat.cpp">
+      <Filter>Source Files\SighUpForm</Filter>
+    </ClCompile>
+    <ClCompile Include="EncryptUtils.cpp">
+      <Filter>Source Files\CommonUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtils.cpp">
+      <Filter>Source Files\CommonUtils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="UsChat.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="UsChat.ui">
+      <Filter>Form Files\SighUpForm</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="UsChat.h">
+      <Filter>Header Files\SighUpForm</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommonConfig.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginConfig.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="UserConfig.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="IncludeConfig.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonConstant.h">
+      <Filter>Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginConstant.h">
+      <Filter>Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="UserConstant.h">
+      <Filter>Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5Utils.h">
+      <Filter>Header Files\CommonUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="EncryptUtils.h">
+      <Filter>Header Files\CommonUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtils.h">
+      <Filter>Header Files\CommonUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="TextConstant.h">
+      <Filter>Constant</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿  Reading Qt configuration (F:\Qt\5.14.0\msvc2017_64\bin\qmake.exe)
+UsChat.vcxproj : error : ERROR running qmake
+UsChat.vcxproj : error : qmake: (F:\Qt\5.14.0\msvc2017_64\bin\qmake.exe)
+UsChat.vcxproj : error : qmake: $PWD=C:\Users\lu754\AppData\Local\Temp\olxlil3y.j0o
+UsChat.vcxproj : error : qmake: 'chcp65001' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+UsChat.vcxproj : error : qmake: ���������ļ���
+UsChat.vcxproj : error : qmake: Project ERROR: Cannot run compiler 'cl'. Output:
+UsChat.vcxproj : error : qmake: ===================
+UsChat.vcxproj : error : qmake: #line 1 "F:/Qt/5.14.0/msvc2017_64/mkspecs/features/data/macros.cpp"
+UsChat.vcxproj : error : qmake: QT_COMPILER_STDCXX = 199711L
+UsChat.vcxproj : error : qmake: QMAKE_MSC_VER = 1926
+UsChat.vcxproj : error : qmake: QMAKE_MSC_FULL_VER = 192628806
+UsChat.vcxproj : error : qmake: #line 7 "F:/Qt/5.14.0/msvc2017_64/mkspecs/features/data/macros.cpp"
+UsChat.vcxproj : error : qmake: ===================
+UsChat.vcxproj : error : qmake: Maybe you forgot to setup the environment?
+UsChat.vcxproj : error : qmake: Error creating Makefile
+UsChat.vcxproj : error : 
