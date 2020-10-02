@@ -1,4 +1,12 @@
-﻿  UsChat.cpp
+﻿  Reading Qt configuration (F:\Qt\5.14.0\msvc2017\bin\qmake.exe)
+  uic UsChat.ui
+  rcc UsChat.qrc
+  moc UsChat.h
+  EncryptUtils.cpp
+  FileUtils.cpp
+  UsChat.cpp
   main.cpp
   moc_UsChat.cpp
+  qrc_UsChat.cpp
+  LINK : 没有找到 M:\QtConnect\UsChat\Debug\\UsChat.exe 或上一个增量链接没有生成它；正在执行完全链接
   UsChat.vcxproj -> M:\QtConnect\UsChat\Debug\UsChat.exe
