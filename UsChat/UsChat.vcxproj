@@ -143,6 +143,7 @@
     <ClCompile Include="EncryptUtils.cpp" />
     <ClCompile Include="FileUtils.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="QStringUtils.cpp" />
     <ClCompile Include="UsChat.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -163,9 +164,11 @@
     <ClInclude Include="LoginConfig.h" />
     <ClInclude Include="LoginConstant.h" />
     <ClInclude Include="MD5Utils.h" />
+    <ClInclude Include="QStringUtils.h" />
     <ClInclude Include="TextConstant.h" />
     <ClInclude Include="UserConfig.h" />
     <ClInclude Include="UserConstant.h" />
+    <ClInclude Include="UtilContent.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

@@ -44,6 +44,9 @@
     <Filter Include="Source Files\CommonUtils">
       <UniqueIdentifier>{7ed59ef1-6d04-4b09-8be3-2c1f269d2450}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Contents">
+      <UniqueIdentifier>{e2d1e4fa-3d14-4ac4-90c3-cb79b3c91263}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -56,6 +59,9 @@
       <Filter>Source Files\CommonUtils</Filter>
     </ClCompile>
     <ClCompile Include="FileUtils.cpp">
+      <Filter>Source Files\CommonUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="QStringUtils.cpp">
       <Filter>Source Files\CommonUtils</Filter>
     </ClCompile>
   </ItemGroup>
@@ -107,6 +113,12 @@
     </ClInclude>
     <ClInclude Include="TextConstant.h">
       <Filter>Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="QStringUtils.h">
+      <Filter>Header Files\CommonUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilContent.h">
+      <Filter>Header Files\Contents</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
