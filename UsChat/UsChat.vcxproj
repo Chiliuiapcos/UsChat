@@ -144,12 +144,17 @@
     <ClCompile Include="FileUtils.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="QStringUtils.cpp" />
+    <ClCompile Include="Scroll_GridLayout.cpp" />
+    <ClCompile Include="TextListItem.cpp" />
+    <ClCompile Include="TextListScroll.cpp" />
     <ClCompile Include="UsChat.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="UsChat.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtUic Include="TextListItem.ui" />
+    <QtUic Include="ListScroll.ui" />
     <QtUic Include="UsChat.ui" />
   </ItemGroup>
   <ItemGroup>
@@ -165,7 +170,10 @@
     <ClInclude Include="LoginConstant.h" />
     <ClInclude Include="MD5Utils.h" />
     <ClInclude Include="QStringUtils.h" />
+    <QtMoc Include="Scroll_GridLayout.h" />
+    <QtMoc Include="TextListItem.h" />
     <ClInclude Include="TextConstant.h" />
+    <ClInclude Include="TextListScroll.h" />
     <ClInclude Include="UserConfig.h" />
     <ClInclude Include="UserConstant.h" />
     <ClInclude Include="UtilContent.h" />

@@ -1,6 +1,8 @@
 <RCC>
   <qresource prefix="UsChat"/>
   <qresource prefix="Icon">
+    <file>Resources/Icon/bell_mute_small.png</file>
+    <file>Resources/Icon/bell_mute.png</file>
     <file>Resources/Icon/Password_Icon.png</file>
     <file>Resources/Icon/user.png</file>
     <file>Resources/Icon/main_CLOSE.png</file>

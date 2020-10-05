@@ -1,8 +1,2 @@
-﻿  Reading Qt configuration (F:\Qt\5.14.0\msvc2017\bin\qmake.exe)
-  EncryptUtils.cpp
-  FileUtils.cpp
-  main.cpp
-  QStringUtils.cpp
-  UsChat.cpp
-  moc_UsChat.cpp
+﻿  Scroll_GridLayout.cpp
   UsChat.vcxproj -> M:\QtConnect\UsChat\Debug\UsChat.exe

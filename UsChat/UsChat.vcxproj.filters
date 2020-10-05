@@ -47,6 +47,24 @@
     <Filter Include="Header Files\Contents">
       <UniqueIdentifier>{e2d1e4fa-3d14-4ac4-90c3-cb79b3c91263}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\MessageForm">
+      <UniqueIdentifier>{ef38ea1b-db42-4198-8199-783576605434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MessageForm">
+      <UniqueIdentifier>{07b62f4a-4d96-41ec-9fb4-ba5d8400d46e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CommonWidget">
+      <UniqueIdentifier>{546aae81-c32c-4119-b146-361d5ae2410d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommonWidget">
+      <UniqueIdentifier>{017e944e-e268-4d94-b00a-ec94be29a93e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\MessageForm">
+      <UniqueIdentifier>{5da4f753-a5eb-4c91-8195-f93c6b59b2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\CommonWidget">
+      <UniqueIdentifier>{3035958a-4419-4fbf-9d34-a8b6491df5dd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -64,6 +82,15 @@
     <ClCompile Include="QStringUtils.cpp">
       <Filter>Source Files\CommonUtils</Filter>
     </ClCompile>
+    <ClCompile Include="Scroll_GridLayout.cpp">
+      <Filter>Source Files\CommonWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="TextListItem.cpp">
+      <Filter>Source Files\MessageForm</Filter>
+    </ClCompile>
+    <ClCompile Include="TextListScroll.cpp">
+      <Filter>Source Files\MessageForm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="UsChat.qrc">
@@ -74,10 +101,22 @@
     <QtUic Include="UsChat.ui">
       <Filter>Form Files\SighUpForm</Filter>
     </QtUic>
+    <QtUic Include="TextListItem.ui">
+      <Filter>Form Files\MessageForm</Filter>
+    </QtUic>
+    <QtUic Include="ListScroll.ui">
+      <Filter>Form Files\CommonWidget</Filter>
+    </QtUic>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="UsChat.h">
       <Filter>Header Files\SighUpForm</Filter>
+    </QtMoc>
+    <QtMoc Include="Scroll_GridLayout.h">
+      <Filter>Header Files\CommonWidget</Filter>
+    </QtMoc>
+    <QtMoc Include="TextListItem.h">
+      <Filter>Header Files\MessageForm</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
@@ -119,6 +158,9 @@
     </ClInclude>
     <ClInclude Include="UtilContent.h">
       <Filter>Header Files\Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="TextListScroll.h">
+      <Filter>Header Files\MessageForm</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
