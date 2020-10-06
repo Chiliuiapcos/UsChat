@@ -65,6 +65,9 @@
     <Filter Include="Form Files\CommonWidget">
       <UniqueIdentifier>{3035958a-4419-4fbf-9d34-a8b6491df5dd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Form Files\MainWidget">
+      <UniqueIdentifier>{34950edf-3d56-4ac8-b097-5ab498bc27a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -106,6 +109,9 @@
     </QtUic>
     <QtUic Include="ListScroll.ui">
       <Filter>Form Files\CommonWidget</Filter>
+    </QtUic>
+    <QtUic Include="LeftBar.ui">
+      <Filter>Form Files\MainWidget</Filter>
     </QtUic>
   </ItemGroup>
   <ItemGroup>

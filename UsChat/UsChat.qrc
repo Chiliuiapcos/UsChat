@@ -1,6 +1,15 @@
 <RCC>
   <qresource prefix="UsChat"/>
   <qresource prefix="Icon">
+    <file>Resources/Icon/options_full.png</file>
+    <file>Resources/Icon/options_line.png</file>
+    <file>Resources/Icon/options_Oriline.png</file>
+    <file>Resources/Icon/Person_leftBar_full.png</file>
+    <file>Resources/Icon/Person_leftBar_line.png</file>
+    <file>Resources/Icon/Person_leftBar_Oriline.png</file>
+    <file>Resources/Icon/Message_leftBar_Oriline.png</file>
+    <file>Resources/Icon/Message_leftBar_full.png</file>
+    <file>Resources/Icon/Message_leftBar_line.png</file>
     <file>Resources/Icon/bell_mute_small.png</file>
     <file>Resources/Icon/bell_mute.png</file>
     <file>Resources/Icon/Password_Icon.png</file>

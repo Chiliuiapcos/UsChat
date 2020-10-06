@@ -1,6 +1,7 @@
 #include "UsChat.h"
 #include <QtWidgets/QApplication>
 #include "Scroll_GridLayout.h"
+#include "ui_LeftBar.h"
 
 int main(int argc, char *argv[])
 {

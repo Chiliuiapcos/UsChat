@@ -153,6 +153,7 @@
     <QtMoc Include="UsChat.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtUic Include="LeftBar.ui" />
     <QtUic Include="TextListItem.ui" />
     <QtUic Include="ListScroll.ui" />
     <QtUic Include="UsChat.ui" />
