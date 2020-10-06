@@ -1,2 +1,6 @@
-﻿  Scroll_GridLayout.cpp
+﻿  uic ListScroll.ui
+  moc Scroll_GridLayout.h
+  Scroll_GridLayout.cpp
+  main.cpp
+  moc_Scroll_GridLayout.cpp
   UsChat.vcxproj -> M:\QtConnect\UsChat\Debug\UsChat.exe
